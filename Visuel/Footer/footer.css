@@ -1,18 +1,27 @@
+
+/* ************************** footer*********************** */ 
+.top-bar {
+  background: #e7e7e7 ;
+}
+
+img.ups {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%
+}
+
 /* ************************** footer social icons *********************** */
 
 /* footer social icons */
 ul.social-network {
-  list-style: none;
-  display: inline;
-  margin-left:0 !important;
-  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul.social-network li {
   display: inline;
   margin: 0 5px;
-}
-.social-network a.icoRss:hover {
-  background-color: #F56505;
 }
 .social-network a.icoFacebook:hover {
   background-color:#3B5998;
@@ -23,14 +32,12 @@ ul.social-network li {
 .social-network a.icoGoogle:hover {
   background-color:#BD3518;
 }
-.social-network a.icoVimeo:hover {
-  background-color:#0590B8;
+.social-network a.icoGithub:hover {
+  background-color: black;
 }
-.social-network a.icoLinkedin:hover {
-  background-color:#007bb7;
-}
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+
+.social-network, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoGithub:hover i {
   color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -45,14 +52,14 @@ a.socialIcon:hover, .socialHoverClass {
   -webkit-border-radius:50%;
   border-radius:50%;
   text-align:center;
-  width: 50px;
-  height: 50px;
-  font-size:20px;
+  width: 30px;
+  height: 30px;
+  font-size:15px;
 }
 .social-circle li i {
   margin:0;
-  line-height:50px;
-  text-align: center;
+  line-height:30px;
+  text-align: center
 }
 
 .social-circle li a:hover i, .triggeredHover {
@@ -75,7 +82,9 @@ a.socialIcon:hover, .socialHoverClass {
   transition: all 0.8s;
 }
 .social {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 320px;
+    width: 20%;
 }
+
