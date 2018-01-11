@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
 /* ************************** footer*********************** */ 
 .top-bar {
   background: #e7e7e7 ;
@@ -18,16 +14,13 @@ width: 20%
 
 /* footer social icons */
 ul.social-network {
-<<<<<<< HEAD
   display: block;
   margin-left: auto;
   margin-right: auto;
-=======
   list-style: none;
   display: inline;
   margin-left:0;
   padding: 0;
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
 }
 ul.social-network li {
   display: inline;
@@ -68,11 +61,8 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .social-circle li i {
   margin:0;
-<<<<<<< HEAD
   line-height:30px;
-=======
   line-height:50px;
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
   text-align: center
 }
 
@@ -101,9 +91,3 @@ a.socialIcon:hover, .socialHoverClass {
     margin-right: auto;
     width: 20%;
 }
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
