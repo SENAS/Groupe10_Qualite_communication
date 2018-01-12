@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 /* Groupe 10
 C.L.
 */
 
+=======
+>>>>>>> 075f1f6891e86d8f35e70219146ed3f71c3eabde
 /* ************************** footer*********************** */ 
 .top-bar {
   background: #e7e7e7 ;
@@ -11,7 +14,11 @@ img.ups {
 display: block;
 margin-left: auto;
 margin-right: auto;
+<<<<<<< HEAD
 width: 100%;
+=======
+width: 20%;
+>>>>>>> 075f1f6891e86d8f35e70219146ed3f71c3eabde
 margin-top: 10px;
 margin-bottom: 10px;
 }
@@ -29,7 +36,11 @@ ul.social-network {
 }
 
 ul.social-network li {
+<<<<<<< HEAD
   display : inline-block;
+=======
+  display: inline;
+>>>>>>> 075f1f6891e86d8f35e70219146ed3f71c3eabde
   margin: 0 8px;
 }
 
@@ -67,7 +78,11 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .social-circle li i {
   margin:0;
+<<<<<<< HEAD
   line-height:30px;
+=======
+  line-height:  30px;
+>>>>>>> 075f1f6891e86d8f35e70219146ed3f71c3eabde
   text-align: center;
 }
 
@@ -91,6 +106,7 @@ a.socialIcon:hover, .socialHoverClass {
   transition: all 0.8s;
 }
 .social {
+<<<<<<< HEAD
   display: inline;
   margin-left: auto;
   margin-right: auto;
@@ -105,3 +121,16 @@ a.socialIcon:hover, .socialHoverClass {
   Font-Weight: Bold;
   text-align: center;
 }
+=======
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+}
+.entreprise{
+  color: white;
+  margin: auto;
+  width: 20%;
+  Font-Weight: Bold;
+  text-align: center;
+}
+>>>>>>> 075f1f6891e86d8f35e70219146ed3f71c3eabde
