@@ -3,8 +3,9 @@ nav {
 }
 
 .navbar-brand {
-  width: 150px;
-  height: 100px !important;
+  margin-top: 10px;
+  width: 120px;
+  height: 80px !important;
 
 }
 
@@ -57,4 +58,10 @@ a:active::before {
 a:hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
+}
+
+li.item{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
