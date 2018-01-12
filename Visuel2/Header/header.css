@@ -59,3 +59,9 @@ a:hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+li.item{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
