@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+/* Groupe 10
+C.L.
+*/
 
-=======
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
 /* ************************** footer*********************** */ 
 .top-bar {
   background: #e7e7e7 ;
@@ -11,28 +11,28 @@ img.ups {
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 20%
+width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 /* ************************** footer social icons *********************** */
 
+
 /* footer social icons */
 ul.social-network {
-<<<<<<< HEAD
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-=======
   list-style: none;
-  display: inline;
-  margin-left:0;
+  display: block;
+  margin-left: 0;
+  margin-right: 0 ;
   padding: 0;
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
 }
+
 ul.social-network li {
-  display: inline;
-  margin: 0 5px;
+  display : inline-block;
+  margin: 0 8px;
 }
+
 .social-network a.icoFacebook:hover {
   background-color:#3B5998;
 }
@@ -42,11 +42,11 @@ ul.social-network li {
 .social-network a.icoGoogle:hover {
   background-color:#BD3518;
 }
-.social-network a.icoGithub:hover {
-  background-color: black;
-}
 
-.social-network, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGithub:hover {
+  background-color:#000;
+}
+.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoGithub:hover i {
   color:#fff;
 }
@@ -56,7 +56,6 @@ a.socialIcon:hover, .socialHoverClass {
 
 .social-circle li a {
   display:inline-block;
-  position:relative;
   margin:0 auto 0 auto;
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
@@ -68,12 +67,8 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .social-circle li i {
   margin:0;
-<<<<<<< HEAD
   line-height:30px;
-=======
-  line-height:50px;
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
-  text-align: center
+  text-align: center;
 }
 
 .social-circle li a:hover i, .triggeredHover {
@@ -96,14 +91,17 @@ a.socialIcon:hover, .socialHoverClass {
   transition: all 0.8s;
 }
 .social {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align:center;
 }
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 9e7bb7c9a8077b0d5f5ae605cb5da44322134e63
+.entreprise{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  Font-Weight: Bold;
+  text-align: center;
+}
